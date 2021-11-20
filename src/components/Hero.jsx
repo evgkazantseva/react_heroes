@@ -3,7 +3,7 @@ import Specification from './Spectification.jsx';
 
 function Hero(props) {
   return (
-    <div className="hero-card">
+    <div className="hero-card" id={props.id}>
       <div className="hero-name">{props.name}</div>
 
       <img className="hero-img" src={props.img}></img>
